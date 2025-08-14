@@ -1,0 +1,2 @@
+feel = input("How are you feeling? ").replace( ":)", "😊").replace( ":(", "🙁").replace( ";)", "😉").replace( ":P", "😋").replace( "B)", "😎").replace( ":3", "😗").replace( "XD", "😆").replace( ":/", "🫤")
+print(feel)
