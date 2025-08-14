@@ -1,0 +1,8 @@
+print("Stranger: Here comes the monster! quick, shout as hard as you can to scare him away!!! ")
+shout = input("You: ").strip().lower()
+print('Stranger: what do you mean "', shout ,'"!?!?', " put some effort next time or you're gonna get us KILLED!!!")
+print("(the monster gets closer)")
+print("Stranger: Oh no! it's getting closer, quick, shout again, BUT FOR REAL THIS TIME!!!")
+shoutwo = input("You: ").strip().lower()
+print('Stranger: "', shoutwo ,'"', " ...are you serious?")
+print("YOU DIED")
