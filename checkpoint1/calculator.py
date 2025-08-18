@@ -1,5 +1,4 @@
-print("---addition calculator---") #?????
-n1 = input("Enter the first integer: ")
-n2 = input("Enter a second integer ")
-res = int(n1) + int(n2)
-print(f"your result is {res}")
+x = input("Enter the value of x: ")
+y = input("Enter the value of y: ")
+z = round(float(x) + float(y),2)
+print(f"{z:,}")
