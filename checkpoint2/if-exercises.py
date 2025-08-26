@@ -18,6 +18,7 @@ def operation(op, ex, why):
         if op == "/":
             calculate = ex / why
             print(f"{ex} / {why}: {calculate}")
-    else: print("Error.")
+    else:
+        print("Error.")
 
 main()
