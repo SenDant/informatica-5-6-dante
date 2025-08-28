@@ -15,7 +15,7 @@ def main():
             if total == PRICE:
                 print("----------------------------------------")
                 print("Pago Completado.")
-                print(f"Aquí está una Coca Cola para {name}.🥤")
+                print(f"Aquí está una Coca Cola para {name}.")
                 print("    		        _                                   ")
                 print("          .!.!.                             ")
                 print("           ! !                                   ")
@@ -34,7 +34,7 @@ def main():
                 total -= PRICE
                 print("----------------------------------------")
                 print(f"Su cambio: ${total}")
-                print(f"Aquí está una Coca Cola para {name}.🥤")
+                print(f"Aquí está una Coca Cola para {name}.")
                 print("    		        _                                   ")
                 print("          .!.!.                             ")
                 print("           ! !                                   ")
