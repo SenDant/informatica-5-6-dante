@@ -23,3 +23,4 @@ def main():
         input("Press enter to continue")
         print("----------------------------------")
 main()
+#This code is meant to be used when exercising and quickly putting a timer when you need to rest between sets, obviously it'd be better if it played a sound or something;as an alarm.
