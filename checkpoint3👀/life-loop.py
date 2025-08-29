@@ -18,7 +18,7 @@ def main():
             print("Great Session! You're done now.")
             break
         print("Resting...")
-        time.sleep(3)
+        time.sleep(30)
         print("Time's up! Continue with your next set!")
         input("Press enter to continue")
         print("----------------------------------")
