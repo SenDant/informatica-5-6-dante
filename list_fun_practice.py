@@ -1,7 +1,7 @@
 def main():         #I finished the assignment before its instructions were changed, so it's different..
-    n = 0           #So, I deleted the function that asked the user to create their list, and moved that stuff
-    print("------Create a list.------") #to main so the other functions have access to that user's list.
-    print("----Type '0' when done----")
+    n = 0           #So I deleted the function that asked the user to create their list, and moved it to main
+    print("------Create a list.------") # so the other functions have access to that list..
+    print("-Type '0' to end the list-")
     user_list = []
     while True:
         n += 1
