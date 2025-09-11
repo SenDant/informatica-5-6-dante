@@ -14,6 +14,8 @@ print(sorted_playlist) #sorted playlist
 print(weekly_playlist) #final result
 print(f"There's a total of {len(weekly_playlist)} songs in the final playlist.")
 while True:
+    #forgot to put that time thing
+    time.sleep(2) # 2 seconds just to prove it works :p
     weekly_playlist.insert(6, weekly_playlist[0])
     weekly_playlist.remove(weekly_playlist[0])
     print(weekly_playlist)
