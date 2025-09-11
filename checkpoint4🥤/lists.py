@@ -11,7 +11,9 @@ leaders.append("Vicente Guerrero")
 leaders.insert(1, "José María Morelos") #Inserting an elements inside the list between other elements
 #leaders.remove("Vicente Guerrero") #remove especific info
 leaders.append("Agustín de Iturbide")
+
 #leaders.append(input("Type a leader: ")) #user can insert stuff in the list
+
 #same as remove BUT with index numbers(positions)
 #leaders.clear() # Will erase everything in the list
 print(leaders.index("Miguel Hidalgo y Costilla")) #finds the position of an element
