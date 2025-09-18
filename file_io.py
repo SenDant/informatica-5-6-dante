@@ -13,6 +13,6 @@
 #     file.write(f"{input("What's your name? ")}")
 
 with open("names.txt", "r") as file:     # r means reading
-    lines = file.readlines() #its turning into this: lines = ["Sen", "Song", "Hana", "Logan"]
-for line in lines:
+    lines = file.readlines() #its turning into this: lines = ["Sen", "Hana", "Song", "Logan"]
+for line in sorted(lines):
     print(f"Hello, {line.rstrip()}")
