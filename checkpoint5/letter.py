@@ -1,7 +1,7 @@
 def main():
-    invited = ("Mario", "Luigi", "Daisy", "Yoshi", "Toad", "Princess Peach", "Bowser")
+    invited = ("Mario", "Luigi", "Daisy", "Yoshi", "Toad", "𝒫𝓇𝒾𝓃𝒸𝑒𝓈𝓈 𝒫𝑒𝒶𝒸𝒽", "Bowser")
     for receiver in invited:
-        if receiver != "Princess Peach":
+        if receiver != "𝒫𝓇𝒾𝓃𝒸𝑒𝓈𝓈 𝒫𝑒𝒶𝒸𝒽":
             print(f"""
                 ★~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~★
                     Dear {receiver}, 
