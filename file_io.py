@@ -15,4 +15,4 @@
 with open("names.txt", "r") as file:     # r means reading
     lines = file.readlines() #its turning into this: lines = ["Sen", "Song", "Hana"]
 for line in lines:
-    print(f"Hello, {line}")
+    print(f"Hello, {line.rstrip()}")
