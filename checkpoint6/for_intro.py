@@ -1,6 +1,6 @@
 doctrine = ("Faith", "Repentance", "Baptism", "Holy Ghost", "Endure to the end")
 i = 0
-# while i < len(doctrine): 👶🏻🤌🏻
+# while i < len(doctrine):
 #     print(doctrine[i])
 #     i += 1
 for principle in doctrine:
