@@ -23,13 +23,4 @@
 # MATRIX #
 matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 for n in matrix:
-    #print(n)
-    fir = n[0]
-    fir_mat = []
-    fir_mat.append(fir)
-    sec = n[1]
-    sec_mat = []
-    sec_mat.append(sec)
-    thir = n[2]
-    thir_mat = []
-    thir_mat.append(thir)
+    n
