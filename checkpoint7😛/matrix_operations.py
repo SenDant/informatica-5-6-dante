@@ -1,3 +1,13 @@
+def main(): #I feel it easier to understand using a main function.. It looks more organized.
+    matrix = [[1, 2, 3, 4],[2, 4, 6, 8],[5, 10, 15, 20], [10, 20, 30, 40]]
+
+    row_operation = sum_of_row(matrix, 3)
+    print(row_operation)                  
+    col_operation = sum_of_column(matrix, 2)     
+    print(col_operation)
+    change_of_value(matrix, 2, 3, 1000)
+    print(matrix)
+
 def sum_of_row(m, row_number: int):
     row = m[row_number]
     row_sum = 0
@@ -14,12 +24,5 @@ def sum_of_column(m, column_number: int): # in "my_sum" we use matrix as m and a
 def change_of_value(m, row_number, column_number, new_value: int):
     row = m[row_number] #row is equal to the specified list of the SUPER LIST
     row[column_number] = new_value # now, the specified element of the LIST is equal(being changed) to the specified new value.
-
-matrix = [[1, 2, 3, 4],[2, 4, 6, 8],[5, 10, 15, 20], [10, 20, 30, 40]]
-
-row_operation = sum_of_row(matrix, 3)
-print(row_operation)                  
-col_operation = sum_of_column(matrix, 2)     
-print(col_operation)
-change_of_value(matrix, 2, 3, 1000)
-print(matrix)
+    
+main()
