@@ -24,11 +24,11 @@ print("------------------")
 picnic_items = {"apples": 5, "cups": 2}
 print(f"I'm bringing {picnic_items.get("cups",)} cups.") #it's going to get the value to specified key.
 print(f"I'm bringing {picnic_items.get("eggs", 9)} eggs.") #there are no eggs, so it's gonna print None. 
-                                                           #but we can put a number instead (, 9), so it print 9 if and only if there are none.
+                                                           #but we can put a number instead (, 9), so it print 9 if and only if there are None.
 # Setting default values
 pet_info = {
     "name": "Rayito",
     "age": "4"
 }
-pet_info.setdefault("color", "brown") # like append. ( same as: pet_info[color] = "brown" )
+pet_info.setdefault("color", "brown") # like append. ( same as: pet_info[color] = "brown" ) but it DOESN'T add something that IS ALREADY THERE.
 print(pet_info)
