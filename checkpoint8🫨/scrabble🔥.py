@@ -29,5 +29,11 @@ def main():
         
     with open("scrabble_words.txt", "r") as file:
         lines = file.readlines()
-        dictwords.append(line.replace"\n", ""))
+        dictwords = []
+    for line in lines:
+        dictwords.append(line.replace("\n", ""))
+    if user_answer.lower() in dictwords:
+        print("Valid.")
+    else: print("That's not a word.")
+    
 main()
