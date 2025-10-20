@@ -35,5 +35,10 @@ def main():
     if user_answer.lower() in dictwords:
         print("Valid.")
     else: print("That's not a word.")
+
     
+    o = 0
+    while o < len(user_answer):
+        print(user_letters.remove("B"))
+        o += 1
 main()
