@@ -20,7 +20,7 @@ def main():
     score = 0
     while True:
         while True:                                                        
-            with open("scrabble-words.txt" ,"r") as file:           # Checks if the word is in the dictionary
+            with open("scrabble_words.txt" ,"r") as file:           # Checks if the word is in the dictionary
                 lines = file.readlines()                            # Opens the word file of the words in the dictionary of scrabble
             dictwords = []
             for line in lines:
