@@ -1,7 +1,7 @@
 def main():
     while True:
         try:
-            user = input("Enter a fraction: ").split("/")
+            user = input("Enter the fraction of your fuel: ").split("/")
             result = (int(user[0]) / int(user[1])) * 100
             if int(user[0]) > int(user[1]):
                 print("Invalid input.")
@@ -17,7 +17,6 @@ def main():
                     print(f"{result}%")
                     break
         except (ZeroDivisionError, ValueError, UnboundLocalError):
-            print("Invalid input.")
+            print("Invalid input. Please try again.")
             continue
-
 main()
