@@ -2,8 +2,10 @@ def main():
     while True:
         try:
             user = input("Enter the fraction of your fuel: ").split("/")
-            result = (int(user[0]) / int(user[1])) * 100
-            if int(user[0]) > int(user[1]):
+            x = int(user[0])
+            y = int(user[1])
+            result = x / y * 100
+            if x > y:
                 print("Invalid input.")
                 continue
             else:
