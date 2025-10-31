@@ -15,7 +15,7 @@ def calculate_calories(food, x, y):
             raise BaseException ("EW! you CANNOT mix watermelon and milk!")
         calories = 0
         calories = food[x] + food[y]
-        print(calories)
+        print(f"total calories: {calories}")
     except KeyError:
         print("Invalid input(s)!")
 main()
