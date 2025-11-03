@@ -12,4 +12,9 @@
 # print(statistics.mean([100, 90]))
 
 import sys
-print("hello,", sys.argv[1])
+import cowsay
+try:
+    cowsay.cow("hello,", sys.argv[1])
+except IndexError: 
+    # print("too few arguments u.u")
+    sys.exit("too few arguments.") #it can be empty to just stop the program.
