@@ -12,7 +12,7 @@
 # print(statistics.mean([100, 90]))
 
 import sys
-import cowsay
+import cowsay   # i succesfully install it but it doesn't work????
 try:
     cowsay.cow("hello,", sys.argv[1])
 except IndexError: 
