@@ -1,0 +1,15 @@
+def main():
+    print("Which university are you interested in?")
+    ans = input("")
+    universities = [
+        { "UNI" : "Tecnológico de Monterrey", "NUM OF MAJORS" : 0, "AVG SEMESTER COST": 0, "CAMPUS LOC": "m"},
+        {"UNI" : "UACJ", "NUM OF MAJORS" : 0, "AVG SEMESTER COST": 0, "CAMPUS LOC": "m"},
+        {"UNI" : "La Salle", "NUM OF MAJORS" : 0, "AVG SEMESTER COST": 0, "CAMPUS LOC": "m"},
+        {"UNI" : "BYU Pathway", "NUM OF MAJORS" : 0, "AVG SEMESTER COST": 0, "CAMPUS LOC": "m"},
+        {"UNI" : "Eastern Arizona", "NUM OF MAJORS" : 0, "AVG SEMESTER COST": 0, "CAMPUS LOC": "m"},
+        {"UNI" : "Tecmilenio", "NUM OF MAJORS" : 0, "AVG SEMESTER COST": 0, "CAMPUS LOC": "m"},
+        {"UNI" : "---", "NUM OF MAJORS" : 0, "AVG SEMESTER COST": 0, "CAMPUS LOC": "m"},
+        {"UNI" : "---", "NUM OF MAJORS" : 0, "AVG SEMESTER COST": 0, "CAMPUS LOC": "m"}
+        ]
+    print(universities[ans])
+main()
