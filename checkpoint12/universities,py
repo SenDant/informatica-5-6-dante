@@ -1,15 +1,15 @@
 def main():
     print("Which university are you interested in?")
-    ans = input("")
-    universities = [
-        { "UNI" : "Tecnológico de Monterrey", "NUM OF MAJORS" : 0, "AVG SEMESTER COST": 0, "CAMPUS LOC": "m"},
-        {"UNI" : "UACJ", "NUM OF MAJORS" : 0, "AVG SEMESTER COST": 0, "CAMPUS LOC": "m"},
-        {"UNI" : "La Salle", "NUM OF MAJORS" : 0, "AVG SEMESTER COST": 0, "CAMPUS LOC": "m"},
-        {"UNI" : "BYU Pathway", "NUM OF MAJORS" : 0, "AVG SEMESTER COST": 0, "CAMPUS LOC": "m"},
-        {"UNI" : "Eastern Arizona", "NUM OF MAJORS" : 0, "AVG SEMESTER COST": 0, "CAMPUS LOC": "m"},
-        {"UNI" : "Tecmilenio", "NUM OF MAJORS" : 0, "AVG SEMESTER COST": 0, "CAMPUS LOC": "m"},
-        {"UNI" : "---", "NUM OF MAJORS" : 0, "AVG SEMESTER COST": 0, "CAMPUS LOC": "m"},
-        {"UNI" : "---", "NUM OF MAJORS" : 0, "AVG SEMESTER COST": 0, "CAMPUS LOC": "m"}
-        ]
-    print(universities[ans])
+    answer = input("")
+    universities = {    #now im just missing some data, and error consideration.
+        "Tec de Monterrey": {"MAJORS" : 43, "SEMESTER COST": "$160,00MXN", "CAMPUS": "1,112km"},
+        "UACJ": {"MAJORS" : 100, "SEMESTER COST": "$0MXN", "CAMPUS": "m"},
+        "BYU Pathway": {"MAJORS" : 7, "SEMESTER COST": "$0MXN", "CAMPUS": "m"},
+        "Eastern Arizona": {"MAJORS" : 60, "SEMESTER COST": "$0MXN", "CAMPUS": "m"},
+        "Tecmilenio": {"MAJORS" : 43, "SEMESTER COST": "$0MXN", "CAMPUS": "m"},}
+    data = universities[answer]
+    print("-"*30)
+    print(f"""The {answer} offers {data["MAJORS"]} majors, and has an average semester cost of {data["SEMESTER COST"]}.
+The closest camput to your location is {data["CAMPUS"]} close to you.""")
+    print("-"*30)
 main()
