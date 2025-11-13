@@ -4,6 +4,9 @@ def main():
     try:
         wanted = float(input("How many bitcoins do u want to buy? "))
         response = requests.get("https://rest.coincap.io/v3/assets/bitcoin?apiKey="+ API_KEY)
+        bitcoin_price = float(response.json()["data"]["priceUsd"])
+        total = round(wanted * bitcoin_price,2)
+        print(f"You'll total will be ${total:,.2f}USD")
     except KeyError:
         print("Invalid input.")
 
